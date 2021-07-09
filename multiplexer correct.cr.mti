@@ -1,0 +1,19 @@
+{D:/examples/multiplexer correct.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\examples\multiplexer correct.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MUX_SOURCE
+-- Compiling architecture Behavioral of MUX_SOURCE
+
+} {} {}} {D:/examples/multiplexer testbench.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\examples\multiplexer testbench.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_tb
+-- Compiling architecture tb of mux_tb
+
+} {} {}}

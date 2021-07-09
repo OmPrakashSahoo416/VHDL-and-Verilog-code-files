@@ -1,0 +1,16 @@
+D:/examples/mux.v {1 {vlog -work work -vopt -stats=none D:/examples/mux.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module demux1to4
+-- Compiling module tb_demux
+
+Top level modules:
+	tb_demux
+
+} {} {}} D:/examples/ttt.v {1 {vlog -work work -vopt -stats=none D:/examples/ttt.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_demux
+
+Top level modules:
+	tb_demux
+
+} {} {}}

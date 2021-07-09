@@ -1,0 +1,572 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dd:/examples
+T_opt
+!s110 1621954017
+V9;BBlTPUP>::HeSlzzf2Y2
+04 9 4 work demux1to4 fast 0
+=1-08979885fff9-60ad0de1-12b-28dc
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt2
+!s110 1621946442
+VVY@dJI=H2Za1N6N:EZm_61
+04 25 4 work Demultiplexer_1_to_4_case fast 0
+=1-08979885fff9-60acf049-2df-4b98
+R1
+R2
+n@_opt2
+R3
+R0
+vaddsub
+!s110 1621831813
+!i10b 1
+!s100 i`GnN:M6L0k4AD9chK]Ob1
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAzEC9o]PJeYf00@BZR`Oc2
+Z5 dD:/examples
+w1621831809
+8D:/examples/AddSub.v
+FD:/examples/AddSub.v
+!i122 70
+Z6 L0 1 10
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1621831813.000000
+!s107 D:/examples/AddSub.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/AddSub.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vAddSub_tb
+!s110 1621832182
+!i10b 1
+!s100 @_Jo6?f35;R2OlVNEBz:a3
+R4
+IJCWVeP=QNNk[_FYQ<H9ZP1
+R5
+w1621832176
+8D:/examples/AddSub_tb.v
+FD:/examples/AddSub_tb.v
+!i122 71
+L0 1 57
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621832182.000000
+!s107 D:/examples/AddSub_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/AddSub_tb.v|
+!i113 0
+R9
+R2
+n@add@sub_tb
+vbin2gray
+Z10 !s110 1621941072
+!i10b 1
+!s100 Kb6JVzIR2_=]Eo@`C?^@h1
+R4
+I5zWH1<Fe6PFYIO_Ki9CZk2
+R5
+w1621870075
+8D:/examples/bin2gray.v
+FD:/examples/bin2gray.v
+!i122 108
+L0 2 12
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621941072.000000
+!s107 D:/examples/bin2gray.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/bin2gray.v|
+!i113 0
+R9
+R2
+Ecomp
+w1621697971
+Z11 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z12 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 54
+R5
+Z15 8D:/examples/comparator.vhd
+Z16 FD:/examples/comparator.vhd
+l0
+L7 1
+VEB=LkW2kHLic014lTzY`Y2
+!s100 H9K8W1XE=5:_74KNSEo:O1
+Z17 OL;C;2020.4;71
+32
+!s110 1621698079
+!i10b 1
+!s108 1621698079.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/examples/comparator.vhd|
+Z19 !s107 D:/examples/comparator.vhd|
+!i113 0
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1 CvgOpt 0
+Ecounter
+Z22 w1621570859
+R13
+R14
+!i122 28
+R5
+Z23 8D:/examples/JK.vhd
+Z24 FD:/examples/JK.vhd
+l0
+L4 1
+VziPPb7h3`Z4kKM9bP1N[]0
+!s100 L6Tnddg^IUGWP`MX3gEQE0
+R17
+32
+Z25 !s110 1621570914
+!i10b 1
+Z26 !s108 1621570914.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/examples/JK.vhd|
+Z28 !s107 D:/examples/JK.vhd|
+!i113 0
+R20
+R21
+Artl
+R13
+R14
+DEx4 work 7 counter 0 22 ziPPb7h3`Z4kKM9bP1N[]0
+!i122 28
+l28
+L12 39
+Vk0QU^gmAc`fXHR8a9H>hG3
+!s100 ^kBFClk;[TlC9bRQhg3:I1
+R17
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R20
+R21
+Ecounter2
+w1621668913
+R11
+R13
+R14
+!i122 37
+R5
+Z29 8D:/examples/ddc.vhd
+Z30 FD:/examples/ddc.vhd
+l0
+L7 1
+V?8i5GfPc]gfj84kVXj:?O2
+!s100 ?z5DaAImII9WFzE^ZdEmX3
+R17
+32
+!s110 1621668915
+!i10b 1
+!s108 1621668915.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/examples/ddc.vhd|
+Z32 !s107 D:/examples/ddc.vhd|
+!i113 0
+R20
+R21
+Ed_flip_flop
+Z33 w1621355315
+R12
+R11
+R13
+R14
+!i122 22
+R5
+Z34 8D:/examples/D Flip_Flop.vhd
+Z35 FD:/examples/D Flip_Flop.vhd
+l0
+L5 1
+VgYjQBKA3Mic>mD0X@X[CK2
+!s100 3gHAQ>OG5PSHoa71RLRSL3
+R17
+32
+Z36 !s110 1621355327
+!i10b 1
+Z37 !s108 1621355326.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/examples/D Flip_Flop.vhd|
+Z39 !s107 D:/examples/D Flip_Flop.vhd|
+!i113 0
+R20
+R21
+Abehavioral
+R12
+R11
+R13
+R14
+DEx4 work 11 d_flip_flop 0 22 gYjQBKA3Mic>mD0X@X[CK2
+!i122 22
+l10
+L9 10
+V5h?7A60PaiC9oQT[4HO[O3
+!s100 ;nm6mXGd]=0XHj95zK_0W1
+R17
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R20
+R21
+Ed_flipflop_source
+Z40 w1621326596
+R12
+R11
+R13
+R14
+!i122 5
+R5
+R34
+R35
+l0
+L6 1
+V@>Nod7^L337L:6BEhW5>b2
+!s100 [XfRcgF^Omc9HGegJHITi0
+R17
+32
+Z41 !s110 1621326607
+!i10b 1
+Z42 !s108 1621326607.000000
+R38
+R39
+!i113 0
+R20
+R21
+Abehavioral
+R12
+R11
+R13
+R14
+DEx4 work 17 d_flipflop_source 0 22 @>Nod7^L337L:6BEhW5>b2
+!i122 5
+l13
+L11 15
+VN1ME?<IVhfHMSB6<7fUJ]0
+!s100 ENg[b7ZI4GRD57G9>WPUm3
+R17
+32
+R41
+!i10b 1
+R42
+R38
+R39
+!i113 0
+R20
+R21
+vDemultiplexer_1_to_4_assign
+!s110 1621948487
+!i10b 1
+!s100 IgY@fd6O:BVTX;`eRGZMX0
+R4
+I108F1Yjk6Fl:;3Uhi?NCb1
+R5
+w1621948485
+Z43 8D:/examples/mux.v
+Z44 FD:/examples/mux.v
+!i122 153
+L0 1 6
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621948486.000000
+Z45 !s107 D:/examples/mux.v|
+Z46 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/mux.v|
+!i113 0
+R9
+R2
+n@demultiplexer_1_to_4_assign
+vDemultiplexer_1_to_4_assign_tb
+!s110 1621946387
+!i10b 1
+!s100 UFTPlnCa_LI0gmFf1dX6U2
+R4
+I;2hTfLbndkdT[?MBK`a8]0
+R5
+w1621946385
+8D:/examples/demuxi.v
+FD:/examples/demuxi.v
+!i122 152
+L0 2 16
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621946386.000000
+!s107 D:/examples/demuxi.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/demuxi.v|
+!i113 0
+R9
+R2
+n@demultiplexer_1_to_4_assign_tb
+vDemultiplexer_1_to_4_case
+!s110 1621946199
+!i10b 1
+!s100 UX9M6TJUHT@SQG]oS^F3W2
+R4
+Ie;YjHYQBBLYEPVe100Cia3
+R5
+w1621946197
+R43
+R44
+!i122 151
+R6
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621946199.000000
+R45
+R46
+!i113 0
+R9
+R2
+n@demultiplexer_1_to_4_case
+vdemux1to4
+Z47 !s110 1621954890
+!i10b 1
+!s100 dNzBGlHWXOUF4kKkX]G;81
+R4
+IS4IzeLi4<?77TFjoG3]]S3
+R5
+Z48 w1621954887
+R43
+R44
+!i122 210
+L0 2 57
+R7
+R8
+r1
+!s85 0
+31
+Z49 !s108 1621954890.000000
+R45
+R46
+!i113 0
+R9
+R2
+Terror
+!s110 1622032378
+V>2bn4P_mXehFU;TT0G^LK3
+04 8 4 work tb_demux fast 0
+o
+R2
+nerror
+R3
+Efull_adder
+Z50 w1621089630
+R12
+R11
+R13
+R14
+!i122 0
+R5
+Z51 8D:/examples/Full_adder.vhd
+Z52 FD:/examples/Full_adder.vhd
+l0
+L6 1
+V1aIn=0KQ9n2TR`zAMmL273
+!s100 Jlf?fQBTN:9jhlX0h6JK31
+R17
+32
+Z53 !s110 1621248618
+!i10b 1
+Z54 !s108 1621248617.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/examples/Full_adder.vhd|
+Z56 !s107 D:/examples/Full_adder.vhd|
+!i113 0
+R20
+R21
+Abehavioral
+R12
+R11
+R13
+R14
+DEx4 work 10 full_adder 0 22 1aIn=0KQ9n2TR`zAMmL273
+!i122 0
+l12
+L11 5
+VQPmeOmVf]6ca_iczI:GRQ2
+!s100 0>;RZ>6_QnSfR?`l@]Vo52
+R17
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R20
+R21
+Efull_adder_vhdl_code
+Z57 w1621089356
+R13
+Z58 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+R51
+R52
+l0
+L4
+VI1@7hIaoS;=HVLiF?57j90
+!s100 G[6RP0DJ`Q[S>Whg8mRD=0
+Z59 OP;C;10.3a;59
+32
+Z60 !s110 1621089546
+!i10b 1
+Z61 !s108 1621089546.929000
+Z62 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|D:/examples/Full_adder.vhd|
+R56
+!i113 1
+Z63 o-work work -2002 -explicit -O0
+Z64 tExplicit 1
+Agate_level
+R13
+R58
+DEx4 work 20 full_adder_vhdl_code 0 22 I1@7hIaoS;=HVLiF?57j90
+l14
+L12
+VBWhRnF1SPPWMm<zmg=FJK1
+!s100 id^>P]Xj3_8<E`[]=cAkj0
+R59
+32
+R60
+!i10b 1
+R61
+R62
+R56
+!i113 1
+R63
+R64
+vgate2binary
+!s110 1621868774
+!i10b 1
+!s100 GMcV`zQM]ij4=Pl3=oA]l3
+R4
+IZUQlO2R2]V_BHSNcWnQ:V1
+R5
+w1621868118
+8D:/examples/convert_tb.v
+FD:/examples/convert_tb.v
+!i122 95
+Z65 L0 1 11
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621868774.000000
+!s107 D:/examples/convert_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/convert_tb.v|
+!i113 0
+R9
+R2
+vgates
+Z66 !s110 1621777686
+!i10b 1
+!s100 `Z<X>HXGg`^8foU]BFT[00
+R4
+IHci79CkMjR]TG>i6moOk43
+R5
+w1621772507
+8D:/examples/gates.v
+FD:/examples/gates.v
+!i122 64
+L0 1 18
+R7
+R8
+r1
+!s85 0
+31
+Z67 !s108 1621777686.000000
+!s107 D:/examples/gates.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/gates.v|
+!i113 0
+R9
+R2
+vgates_tb
+R66
+!i10b 1
+!s100 QR48z9[89;3EjEH;8k8;@3
+R4
+IHVDgZ8F6AMk3@n;kDk7Y10
+R5
+w1621777607
+8D:/examples/gates_tb.v
+FD:/examples/gates_tb.v
+!i122 65
+Z68 L0 1 33
+R7
+R8
+r1
+!s85 0
+31
+R67
+!s107 D:/examples/gates_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/gates_tb.v|
+!i113 0
+R9
+R2
+vgray2bin
+!s110 1621941071
+!i10b 1
+!s100 ia:0ZMeF>OUlnz]jb7Xz]2
+R4
+I_>mcKOVb900PmBzzAYOSJ3
+R5
+w1621869572
+8D:/examples/code convert.v
+FD:/examples/code convert.v
+!i122 106
+R65
+R7
+R8
+r1
+!s85 0
+31
+!s108 1621941070.000000
+!s107 D:/examples/code convert.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/examples/code convert.v|
+!i113 0
+R9
+R2
+Ejobl
+Z69 w1621672634
+R11
+R13
+R14
+!i122 48
+R5
+R29
+R30
+l0
+L4 1
+Vgg9bKLbfaZY5Dc]`?<FKU0
+!s100 N3>IL;^cz[VUM3bKOa<el2

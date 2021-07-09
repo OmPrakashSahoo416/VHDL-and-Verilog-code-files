@@ -1,0 +1,15 @@
+D:/examples/compi-tb.v {1 {vlog -work work -vopt -stats=none D:/examples/compi-tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_tm
+
+Top level modules:
+	tb_tm
+
+} {} {}} D:/examples/compi.v {1 {vlog -work work -vopt -stats=none D:/examples/compi.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}}

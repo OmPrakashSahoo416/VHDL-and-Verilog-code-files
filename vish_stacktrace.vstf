@@ -1,0 +1,49 @@
+# Current time Thu May 27 13:00:03 2021
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "2020.4"
+# Version = "2020.10"
+# Date = "Oct 13 2020"
+# Platform = win64
+
+Exception c0000005 has occurred at address 6d75db2f. Traceback:
+# 0    0x6d75db2f: 'Tcl_GetString + 0xf'
+# 1    0x6d24eb59: 'Tk_MainEx + 0x2209'
+# 2    0x6d7860b1: 'TclCallVarTraces + 0x301'
+# 3    0x6d793c18: 'TclDeleteCompiledLocalVars + 0x538'
+# 4    0x6d78f959: 'Tcl_UnsetVar2 + 0x589'
+# 5    0x6d78f5a6: 'Tcl_UnsetVar2 + 0x1d6'
+# 6    0x6d78f50e: 'Tcl_UnsetVar2 + 0x13e'
+# 7    0x6d78f439: 'Tcl_UnsetVar2 + 0x69'
+# 8    0xf5d05928: 'Itcl_ScopedVarResolver + 0xa98'
+# 9    0xf5d08aa9: 'Itcl_ReleaseData + 0x119'
+# 10   0xf5cfef98: 'Itcl_PopContext + 0x88'
+# 11   0xf5d04d18: 'Itcl_HandleInstance + 0x2e8'
+# 12   0x6d697103: 'TclNRRunCallbacks + 0x63'
+# 13   0xf5d00d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 14   0xf5d01f5b: 'Itcl_ExecMethod + 0x23b'
+# 15   0xf5d09a19: 'Itcl_EvalArgs + 0x1c9'
+# 16   0xf5d04cf1: 'Itcl_HandleInstance + 0x2c1'
+# 17   0x6d697103: 'TclNRRunCallbacks + 0x63'
+# 18   0xf5d00d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 19   0xf5d01f5b: 'Itcl_ExecMethod + 0x23b'
+# 20   0xf5d09a19: 'Itcl_EvalArgs + 0x1c9'
+# 21   0xf5d04cf1: 'Itcl_HandleInstance + 0x2c1'
+# 22   0x6d697103: 'TclNRRunCallbacks + 0x63'
+# 23   0x6d253f1e: 'TkSetWindowMenuBar + 0x96e'
+# 24   0x6d1a3636: 'TkWinHandleMenuEvent + 0x486'
+# 25   0x6d1aa058: 'TkpMakeMenuWindow + 0x6c8'
+# 26   0x0f11e858: 'CallWindowProcW + 0x3f8'
+# 27   0x0f11e299: 'DispatchMessageW + 0x259'
+# 28   0x6d7b369e: 'Tcl_WaitForEvent + 0x1ae'
+# 29   0x6d74a9b3: 'Tcl_DoOneEvent + 0x153'
+# 30   0x6d20aee5: 'Tk_MainLoop + 0x25'
+# 31   0x6d24d282: 'Tk_MainEx + 0x932'
+# 32   0x40193fba: 'Mtirpc_Init + 0x23afa'
+# 33   0x40196947: 'Mtirpc_Init + 0x26487'
+# 34   0x407062af: 'Tclsqlite3_Init + 0x1b9bf'
+# 35   0x0fe27034: 'BaseThreadInitThunk + 0x14'
+# 36   0x10bfcec1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+

@@ -1,0 +1,51 @@
+# Reading D:/tcl/vsim/pref.tcl
+# Loading project full_adder
+# Compile of Full_adder.vhd was successful.
+vsim -gui -t 10ms work.full_adder_vhdl_code
+# //  ModelSim PE Student Edition 10.3a Apr 14 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -t 10ms work.full_adder_vhdl_code
+# ** Error: ModelSim PE Student Edition license key file not found at D:\win32pe_edu\..\student_license.dat.
+# ** FATAL ERROR: ModelSim PE Student Edition licensing failure due to one or more problems with the license key such as:
+# - it is not found
+# - it has expired
+# - it is not for this user
+# - it is not for this computer
+# - it is not for this version of ModelSim PE Student Edition.
+# 
+# Please go to http://www.model.com and download an updated copy of the ModelSim PE Student Edition.
+# Error loading design
+# Start time: 09:55:49 on May 17,2021
+# End time: 09:55:51 on May 17,2021, Elapsed time: 0: 0: 2
+# Load canceled
+vsim work.full_adder_vhdl_code
+# vsim work.full_adder_vhdl_code
+# Error loading design
+# Start time: 09:59:47 on May 17,2021
+vsim -coverage work.full_adder_vhdl_code
+# End time: 09:59:50 on May 17,2021, Elapsed time: 0: 0: 3
+# vsim -coverage work.full_adder_vhdl_code
+# Error loading design
+# Start time: 09:59:50 on May 17,2021
+# End time: 09:59:51 on May 17,2021, Elapsed time: 0: 0: 1
+vsim -coverage work.full_adder
+# vsim -coverage work.full_adder
+# Error loading design
+# Start time: 10:00:08 on May 17,2021
+# End time: 10:00:09 on May 17,2021, Elapsed time: 0: 0: 1
+vsim -coverage work.full_adder
+# vsim -coverage work.full_adder
+# Error loading design
+# Start time: 10:01:29 on May 17,2021
+# End time: 10:01:30 on May 17,2021, Elapsed time: 0: 0: 1
